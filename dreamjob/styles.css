@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Login Container Styles */
+.login-container {
+    background: white; /* White background for the login form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Fixed width for the login form */
+    margin: auto; /* Center the login form */
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Optional: add some spacing below the title */
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,
+input[type="password"] { /* Added input type for password */
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+input[type="submit"],
+button { /* Added button style for logout or other buttons */
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width for buttons */
+    transition: background-color 0.3s; /* Smooth transition for button color */
+}
+
+input[type="submit"]:hover,
+button:hover { /* Button hover effect */
+    background: #218838;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #f8f8f8;
+}
+
+/* Message Styles */
+.success {
+    background-color: #dff0d8; /* Light green background */
+    color: #3c763d; /* Dark green text */
+    padding: 10px;
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 20px; /* Margin below success message */
+}
+
+.error {
+    background-color: #f2dede; /* Light red background */
+    color: #a94442; /* Dark red text */
+    padding: 10px;
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 20px; /* Margin below error message */
+}
+
+.small-button {
+    padding: 5px 10px; /* Adjust the padding to make the button smaller */
+    font-size: 0.9em; /* Slightly smaller font size */
+    border: none; /* Remove border */
+    background: #850404; /* Red background */
+    color: #fff; /* White text */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.small-button:hover {
+    background: #2c0404; /* Darker red on hover */
+}
+
+.header {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+}
